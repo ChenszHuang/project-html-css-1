@@ -110,6 +110,7 @@ ul {
   padding-left: 12px;
 }
 
+/* boleh pakai classname aja daripada + harus select dalam dalams */
 p + h3,
 h3 + p {
   margin: 0;
