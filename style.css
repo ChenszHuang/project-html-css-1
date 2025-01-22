@@ -1,119 +1,135 @@
-h1{
-    margin: 0;
-    text-align: center;
-    font-size:  25px;
-    font-weight: bold;
-    color: white;
-    padding: 12px;
-}
-body{
-    margin: 0;
-    font-family: poppins;
-}
-.navbar-title{
-    background-color:rgb(75, 119, 158);
-    margin: 0px;
-
-    padding-top: 0px;
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 12px;
 }
 
-.list-item-nav,a{
-    text-align: center;
-    font: bold 15px poppins ;
-    text-decoration: none;
-    color: inherit;
-
-}
-.list-item-nav img{
-    width: 80px;
-    height: auto;
-    
-}
-.item-row{
-    background-color: #ffffff;
-    margin-top: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+body {
+  margin: 0;
+  font-family: poppins;
 }
 
-.container{
-    margin-left: 10px;
-    padding-left: 40px;
-    margin-right: 10px;
-    padding-right: 40px;
-    padding-bottom: 40px;
+.navbar-title {
+  background-color: rgb(75, 119, 158);
+  margin: 0px;
+
+  padding-top: 0px;
 }
-.container img{
-    padding-top: 30px;
-    padding-bottom: 20px;
-    width: 100%;
+
+.list-item-nav,
+a {
+  text-align: center;
+  font: bold 15px poppins;
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-item-nav img {
+  width: 80px;
+  height: auto;
+}
+
+.item-row {
+  background-color: #ffffff;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin-left: 10px;
+  padding-left: 40px;
+  margin-right: 10px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.container img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
 .schedule {
-    background-color:#d5e6fc ;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 0px;
-}
-.schedule h2{
-    margin: 0;
-    padding-top: 0px;
-    padding-bottom: 25px;
+  background-color: #d5e6fc;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
-
-table{
-    width: 100%;
-    table-layout: fixed;
-  
-}
-table,th,td{
-    font-size: 15px;
-    border: 1px solid black;
-    border-collapse: collapse;
-    height: 35px;
-}
-th{
-    background-color: rgb(102, 187, 248);
-}
-td{
-    text-align: left;
-    text-indent: 10px;
+.schedule h2 {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 25px;
 }
 
-.shop-info{
-    width: 90%;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-.shop-info{
-    color: rgb(122, 128, 130);
+table {
+  width: 100%;
+  table-layout: fixed;
 }
 
-.shop-info p,ul{
-    font: normal 12px arial;
+table,
+th,
+td {
+  font-size: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 35px;
 }
-ul{
-    margin-top: 0px;
-    padding-left: 12px;
+
+th {
+  background-color: rgb(102, 187, 248);
 }
-p+h3, h3+p{
-    margin: 0;
-    padding:0;
+
+td {
+  text-align: left;
+  padding-left: 10px;
 }
-h3+p+p{
-    margin-bottom: 0;
+
+.shop-info {
+  width: 90%;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
-ul+h3{
+
+.shop-info {
+  color: rgb(122, 128, 130);
+}
+
+.shop-info p,
+ul {
+  font: normal 12px arial;
+}
+
+ul {
+  margin-top: 0px;
+  padding-left: 12px;
+}
+
+/* boleh pakai classname aja daripada + harus select dalam dalams */
+p + h3,
+h3 + p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 + p + p {
+  margin-bottom: 0;
+}
+
+ul + h3 {
   padding-bottom: 0;
 }
 
-.footer{
-    color: white;
-    font-family: arial;
-    text-align: center;
-    background-color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.footer {
+  color: white;
+  font-family: arial;
+  text-align: center;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
